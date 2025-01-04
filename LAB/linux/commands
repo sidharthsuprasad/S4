@@ -93,6 +93,11 @@ total 12
 student@dl-18:~/sidharth$ cat > prabu
 hello prabu
 ^C
+student@dl-18:~/sidharth$ lp ddd
+lp: Error - No default destination.
+student@dl-18:~/sidharth$ who$whoami
+student  :1           2025-01-04 10:04 (:1)
+
 student@dl-18:~/sidharth$ grep hello prabu
 hello prabu
 student@dl-18:~/sidharth$ rm prabu
